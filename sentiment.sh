@@ -16,7 +16,7 @@ export RHOME=$PWD/R
 export R_LIBS=$PWD/packages
 
 #find . ! -name '*[!0-9]*' -type d
-
+#mv ./imm6010.zip $PWD/packages/afinn/
 # run your script
 Rscript sentiment.R $file # note: the two actual command-line arguments
                           # are in myscript.sub's "arguments = " line
